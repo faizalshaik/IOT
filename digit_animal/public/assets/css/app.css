@@ -1,0 +1,228 @@
+
+.leaflet-sidebar.collapsed {
+    width: 40px;
+}
+
+.sidebar-left-mini, .sidebar-right {
+    top: 60px!important;
+}
+.sidebar-right {
+    top: 60px!important;
+    right: 10px!important;
+}
+.leaflet-sidebar {
+    border-radius: 5px;
+}
+.sidebar-left-mini {
+    height: 40px!important;
+    left: 10px!important;
+}
+
+.sidebar-right-mini {
+    top: 10px!important;
+    height: 40px!important;
+    right: 10px!important;
+}
+
+.sidebar-right.leaflet-sidebar.collapsed {
+    width: 36px!important;
+}
+
+.leaflet-sidebar {
+    -webkit-box-shadow: 0 1px 5px rgba(0,0,0,.65);
+    box-shadow: 0 1px 5px rgba(0,0,0,.65);
+}
+.leaflet-sidebar {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+    overflow: hidden;
+    z-index: 98;
+}
+
+.leaflet-sidebar-tabs, .leaflet-sidebar-tabs>ul {
+    position: absolute;
+    width: 40px;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+.leaflet-sidebar-tabs {
+    top: 0;
+    bottom: 0;
+    height: 100%;
+    background-color: #fff;
+}
+
+.leaflet-sidebar-tabs, .leaflet-sidebar-tabs>ul {
+    position: absolute;
+    width: 40px;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+.leaflet-sidebar-tabs>li, .leaflet-sidebar-tabs>ul>li {
+    width: 100%;
+    height: 40px;
+    color: #333;
+    font-size: 12pt;
+    overflow: hidden;
+    -webkit-transition: all 80ms;
+    transition: all 80ms;
+}
+
+.leaflet-sidebar-tabs>li>a, .leaflet-sidebar-tabs>ul>li>a {
+    display: block;
+    width: 100%;
+    height: 100%;
+    line-height: 40px;
+    color: inherit;
+    text-decoration: none;
+    text-align: center;
+}
+
+.abd.leaflet-sidebar-tabs>li, .abd.leaflet-sidebar-tabs>ul>li {
+    width: 36px!important;
+}
+
+.abd.leaflet-sidebar-tabs>li, .abd.leaflet-sidebar-tabs>ul>li {
+    height: 40px!important;
+    padding: 3px;
+}
+.leaflet-sidebar-tabs>li:hover, .leaflet-sidebar-tabs>ul>li:hover {
+    color: #000;
+    background-color: #eee;
+}
+
+.abd.leaflet-sidebar-tabs>li>a, .abd.leaflet-sidebar-tabs>ul>li>a {
+    line-height: 25px!important;
+}
+
+.abd.leaflet-sidebar-tabs>li>a, .abd.leaflet-sidebar-tabs>ul>li>a {
+    width: 30px!important;
+}
+
+
+
+.bar-buttons-md {
+    -webkit-box-ordinal-group: 5;
+    -webkit-order: 4;
+    -ms-flex-order: 4;
+    order: 4;
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+}
+
+
+
+#wrapper.rt-bar-enabled .rt-bar {
+    right: 0;
+    width: 360px!important;
+}
+
+.sd-bar {
+    -moz-transition: all 200ms ease-out;
+    -webkit-transition: all 200ms ease-out;    
+    background-color: #ffffff;
+    box-shadow: 0px 0px 8px 1px rgba(0, 0, 0, 0.1);
+    display: block;
+    float: left;
+    height: 100%;
+    overflow-y: auto;
+    position: fixed;
+    transition: all 200ms ease-out;
+    width: 240px;
+}
+
+.sd-bar.rt-bar {
+    float: right !important;
+    right: -386px;
+    top: 0px;
+}
+.rt-bar {
+    background: #ebeff2 !important;
+    z-index: 99 !important;
+}
+
+
+#wrapper.lt-bar-enabled .lt-bar {
+    left: 0px;
+}
+
+.sd-bar.lt-bar {
+    float: left !important;
+    left: -266px;
+    top: 0px;
+}
+.lt-bar {
+    /* background: #ffffff !important; */
+    background: #ebeff2 !important;
+    z-index: 99 !important;
+}
+
+
+.menu-list .icon {
+    display: inline-block;
+    float: left;
+    margin-right: 5px;
+    width: 30px;
+}
+.menu-list .list-group-item span.name {
+    color: #00b10d;
+    display: inline-block;
+    float: left;
+    overflow: hidden;
+    padding-left: 5px;
+    padding-top: 6px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    width: 130px;
+}
+
+.menu-list .icon img {
+    /* border-radius: 50%; */
+    width: 100%;
+}
+
+.list-group-item {
+    border: 1px solid rgba(192, 192, 192, 0.1);
+    background-color: transparent !important;
+}
+
+
+.chk-in-table{
+    margin: 0px !important;
+    padding-left: 10px !important; 
+}
+
+
+.devicelist-item{
+}
+
+.devicelist-item .content-img{
+    width:20px;
+}
+
+.devicelist-item .marker-alarm-true {
+    background: #fc0;
+    border-radius: 50%;    
+}
+
+.devicelist-item .marker-img{
+    top: 16px;
+    position: absolute;
+}
+.devicelist-item .device-name{
+    top: 20px;
+    position: absolute;
+    font-size: 16px;
+    right: 4px;
+}
+
+.thumb-xs{
+    width:24px;
+    height:24px;
+}
